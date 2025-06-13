@@ -2,15 +2,16 @@
 import './App.css'
 import Footer from './Footer'
 import Navbar from './Navbar'
-
+import { NavbarData } from './data'
 function App() {
-  
+
+// console.log(NavbarData)
 
   return (
     <>
-      <h1>Hello React</h1>
-      <Navbar/>
-      <Footer/>
+     
+      <Navbar data={NavbarData} />
+      <Footer title ='hello from footer props' parent="App file" />
     </>
   )
 }

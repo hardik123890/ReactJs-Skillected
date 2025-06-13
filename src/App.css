@@ -1,0 +1,19 @@
+.navbar{
+    height: 65px;
+    background-color: blue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    width: 120px;
+}
+.menu-items{
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    color: white;
+    font-weight: 600;
+}
