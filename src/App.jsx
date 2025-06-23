@@ -17,8 +17,15 @@ function App() {
     <>
      
       <Navbar data={NavbarData} />
+      {/* <Footer title ='hello from footer props' parent="App file" />
+      <Element type="text" placeholder="Enter your name" className="lg"/>
+      <Element type="date" placeholder="Enter your Email" className="sm"/>
+      <Element type="radio" placeholder="" className="sm"/> */}
+
+
+      {/* <MultipleExport/> */}
+      <UseStateComponent/>
       
-      <UseEffect/>
     </>
   )
 }
