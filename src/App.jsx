@@ -5,6 +5,7 @@ import Footer from './Footer'
 import { MultipleExport } from './MultipleExport'
 import Navbar from './Navbar'
 import UseEffect from './UseEffect'
+import UseEffectDemo from './UseEffectDemo'
 import UseStateComponent from './UseState'
 
 
@@ -24,7 +25,9 @@ function App() {
 
 
       {/* <MultipleExport/> */}
-      <UseStateComponent/>
+      {/* <UseStateComponent/> */}
+      <UseEffect/>
+      <UseEffectDemo/>
       
     </>
   )
