@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 function OtherComponents({type,placeholder,className}) {
   return (
     <div>

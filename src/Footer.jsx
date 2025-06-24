@@ -1,12 +1,14 @@
 import React from 'react'
+import BottomFooter from './BottomFooter'
 
-const Footer = ({title,parent}) => {
+const Footer = () => {
   //console.log(title,parent)
   return (
     <div>
-        {/* <h1>Hello from footer</h1>
-        <h2>{props.title}</h2> */}
-        <p>{title}</p>
+         <h1>Hello from footer</h1>
+         {/* <BottomFooter parentData={data} /> */}
+       {/* <h2>{props.title}</h2> */}
+        {/* <p>{title}</p> */}
        
     </div>
   )
